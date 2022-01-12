@@ -1,0 +1,66 @@
+#portfolio-wrapper
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		background: rgba(0,0,0,.02);
+		background-image: url(images/overlay.png);
+		background-repeat: repeat;
+		border-top: 1px solid rgba(0,0,0,.05);
+	}
+	
+	#portfolio
+	{
+	}
+
+	#portfolio .box
+	{
+		color: rgba(0,0,0,2);
+	}
+	
+	#portfolio h3
+	{
+		display: block;
+		padding-bottom: 1em;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		font-weight: 400;
+		color: rgba(0,0,0,0.7);
+	}
+
+	#portfolio .title
+	{
+	}
+
+	#portfolio .title h2
+	{
+		color: rgba(0,0,0,0.8);
+	}
+	
+	#portfolio .title .byline
+	{
+		display: block;
+		padding-bottom: 2em;
+		color: rgba(0,0,0,0.7);
+	}
+
+	.column1,
+	.column2,
+	.column3,
+	.column4
+	{
+		width: 282px;
+	}
+	
+	.column1,
+	.column2,
+	.column3
+	{
+		float: left;
+		margin-right: 24px;
+	}
+	
+	.column4
+	{
+		float: right;
+	}
+
